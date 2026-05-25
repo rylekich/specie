@@ -54,18 +54,42 @@ html{
     font-size: 62.5%;
 }
 
-article{
+body{
+    font-size: 1.8rem;
+    line-height: 1.2;
+}
+
+article, aside, section{
     margin: 1rem;
 }
 
 p{
     font-size: 1.8rem;
-    line-height: 1.2;
     margin: .5rem 0;
 }
 
-a:visited{
+a {
+    color: black;
+}
+
+a:hover{
     color: red;
 }
 
+::selection {
+  background-color: red;
+  color: white;
+}
 
+#logo{
+    /* font-family: 'Times New Roman', Times, serif; */
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+}
+
+
+li{
+  list-style-type: '♥︎ ';  
+  margin-left: 1.75rem;
+}

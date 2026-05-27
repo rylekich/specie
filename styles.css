@@ -59,7 +59,7 @@ body{
     line-height: 1.2;
 }
 
-article, aside, section{
+article, aside, section, div{
     margin: 1rem;
 }
 
@@ -81,15 +81,38 @@ a:hover{
   color: white;
 }
 
-#logo{
-    /* font-family: 'Times New Roman', Times, serif; */
-    position: fixed;
-    bottom: 1rem;
-    left: 1rem;
-}
+/* #address{
+    position: sticky;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
 
 
 li{
   list-style-type: '♥︎ ';  
   margin-left: 1.75rem;
 }
+
+li:nth-child(1)::marker { color: purple; }
+li:nth-child(2)::marker { color: paleturquoise; }
+li:nth-child(3)::marker { color: rosybrown; }
+li:nth-child(4)::marker { color: greenyellow; }
+li:nth-child(5)::marker { color: peachpuff; }
+li:nth-child(6)::marker { color: blue; }
+li:nth-child(7)::marker { color: pink; }
+li:nth-child(8)::marker { color: hotpink; }
+li:nth-child(9)::marker { color: tomato; }
+li:nth-child(10)::marker { color: thistle; }
+li:nth-child(11)::marker { color: seagreen; }
+li:nth-child(12)::marker { color: darkorange; }
+li:nth-child(13)::marker { color: gold; }
+li:nth-child(14)::marker { color: orangered; }
+li:nth-child(15)::marker { color: lavender; }
+li:nth-child(16)::marker { color: olive; }
+li:nth-child(17)::marker { color: purple; }
+li:nth-child(18)::marker { color: paleturquoise; }
+li:nth-child(19)::marker { color: rosybrown; }
+li:nth-child(20)::marker { color: greenyellow; }
+li:nth-child(21)::marker { color: peachpuff; }
+li:nth-child(22)::marker { color: blue; }
